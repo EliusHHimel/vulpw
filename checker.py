@@ -20,7 +20,7 @@ if option == 1:
        if name == line:
           print(Fore.CYAN + Style.BRIGHT+ "Your Password "+name+" is Vulnerble")
           break
-   print("If the Checker doesn't give any output then your Password is safe (or) its yet to get updated")
+   print("If the Checker doesn't spot any weakness then your Password is safe (or) its yet to get updated in our wordlist")
 
 if option == 2:
    name = str(input(Fore.GREEN+"Enter the username: "))
@@ -29,7 +29,7 @@ if option == 2:
        if name == line:
            print(Fore.CYAN + Style.BRIGHT+ "Your username "+name+" is Vulnerble")
            break
-   print("If the Checker doesn't give any output then your Password is safe (or) its yet to get updated")
+   print("If the Checker doesn't spot any weakness then your Password is safe (or) its yet to get updated in our wordlist")
 
 if option == 3:
    name = str(input(Fore.GREEN+"Enter the password: "))
@@ -38,7 +38,7 @@ if option == 3:
        if name == line:
            print(Fore.CYAN + Style.BRIGHT+ "Your WiFi password "+name+" is Vulnerble")
            break
-   print("If the Checker doesn't give any output then your Password is safe (or) its yet to get updated")
+   print("If the Checker doesn't spot any weakness then your Password is safe (or) its yet to get updated in our wordlist")
 
 leak = {1:'000webhost.txt',
 2:'adobe100.txt',
@@ -74,6 +74,6 @@ if option == 4:
        if name == line:
            print(Fore.CYAN + Style.BRIGHT+ "Your password "+name+" has been Leaked")
        break
-   print("If the Checker doesn't give any output then your Password is safe (or) its yet to get updated")
+   print("If the Checker doesn't spot any weakness then your Password is safe (or) its yet to get updated in our wordlist")
 
 print(Style.RESET_ALL+"Thank You for Using")
