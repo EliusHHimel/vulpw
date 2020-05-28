@@ -24,6 +24,7 @@ pip install -r requirements.txt
 - python3 checker.py
 - choose your options and enter the password
 ```
+### you can also use this tool in Termux also
 
 ## The Password lists are collected from [Seclists](https://github.com/danielmiessler/SecLists)
 
