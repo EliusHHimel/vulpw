@@ -1,5 +1,6 @@
 # vulpw
 ## A Password Vulnerability checker
+![checker image](https://github.com/codekushi/vulpw/blob/master/vulpw-tem.png)
 
 ### The Checker is uses PYTHON3
 
